@@ -1,13 +1,15 @@
 import React, { FunctionComponent } from "react";
-import styles from "../../style";
+// import styles from "../../style";
+import { logo } from "../../assets";
+// import { navLinks } from "../../constants";
 
 const Navbar: FunctionComponent = () => {
   return (
-    <>
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>Navbar</div>
-      </div>
-    </>
+    <React.Fragment>
+      <nav className='w-full flex py-6 justify-between items-center navbar'>
+        <img src={logo} alt='hoobank' />
+      </nav>
+    </React.Fragment>
   );
 };
 
