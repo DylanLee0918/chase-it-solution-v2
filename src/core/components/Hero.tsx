@@ -1,5 +1,5 @@
 import styles from "../../style";
-import { star, robot } from "../../assets";
+import { star, mello } from "../../assets";
 // import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
+        <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
           <img src={star} alt='star' className='w-[22px] h-[22px]' />
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>Let's work together,</span>{" "}
@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className='flex flex-row justify-between items-center w-full'>
+        <div className='flex flex-row justify-between items-center w-full z-[5]'>
           <h1 className='flex-1 font-poppins font-semibold ss:font-semibold ss:text-[68px] text-[44px] text-white ss:leading-[100.8px] leading-[75px]'>
             <span className='text-gradient'>Dynamic and Forward Thinking</span>{" "}
           </h1>
@@ -28,20 +28,26 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className='font-poppins font-semibold ss:text-[68px] text-[44px] text-white ss:leading-[100.8px] leading-[75px] w-full'>
+        <h1 className='font-poppins font-semibold ss:text-[68px] text-[44px] text-white ss:leading-[100.8px] leading-[75px] w-full z-[5]'>
           IT services provider.
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 z-[5]`}>
           Committed to delivering innovative and reliable solutions to meet the
           IT needs of businesses of all sizes
         </p>
+
+        {/* gradient start */}
+        <div className='absolute z-[0] w-[10%] h-[25%] top-0 pink__gradient' />
+        <div className='absolute z-[1] w-[25%] h-[25%] rounded-full white__gradient top-20' />
+        <div className='absolute z-[0] w-[20%] h-[20%] left-25 top-20 blue__gradient' />
+        {/* gradient end */}
       </div>
 
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
+          src={mello}
           alt='billing'
           className='w-[100%] h-[100%] relative z-[5]'
         />

@@ -16,7 +16,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal cursor-pointer text-[16px] transition duration-100 delay-100 ease-linear ${
               active === nav.title
                 ? "text-white border-b-2 border-secondary"
                 : "text-dimWhite"
