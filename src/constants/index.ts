@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets/svg";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 interface navigationLinks {
   id: string;
@@ -11,16 +11,20 @@ export const navLinks: navigationLinks[] = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "company-overview",
+    title: "Company Overview",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "services",
+    title: "Our Services",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "approach",
+    title: "Our Approach",
+  },
+  {
+    id: "contact-us",
+    title: "Contact Us",
   },
 ];
 
