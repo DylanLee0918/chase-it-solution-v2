@@ -1,6 +1,6 @@
 import styles from "../../style";
 import { star, mello } from "../../assets";
-// import GetStarted from "./GetStarted";
+// import { GetStarted } from ".";
 
 const Hero = () => {
   return (
