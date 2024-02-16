@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import { Navbar, Hero, Introduction } from "./core/components";
+import { Navbar, Hero, Stats, Introduction } from "./core/components";
 import styles from "./style";
 
 const App: FunctionComponent = () => {
@@ -7,7 +7,7 @@ const App: FunctionComponent = () => {
     <React.Fragment>
       <div className='bg-primary w-full overflow-hidden'>
         {/* Navigation Bar */}
-        <div className={`${styles.flexStart}`}>
+        <div className={` ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>
@@ -18,8 +18,12 @@ const App: FunctionComponent = () => {
             <Hero />
           </div>
         </div>
-        {/* Introduction Section */}
-        <Introduction />
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Stats />
+            <Introduction />
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );

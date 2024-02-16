@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import Stats from "./Stats";
 import GetStarted from "./GetStarted";
 import Introduction from "./Introduction";
 import CompanyOverview from "./CompanyOverview";
@@ -12,6 +13,7 @@ import Footer from "./Footer";
 export {
     Navbar,
     Hero,
+    Stats,
     GetStarted,
     Introduction,
     CompanyOverview,
