@@ -43,12 +43,6 @@ const Hero = () => {
           Committed to delivering innovative and reliable solutions to meet the
           IT needs of businesses of all sizes
         </p>
-
-        {/* gradient start */}
-        <div className='absolute z-[0] w-[10%] h-[25%] top-0 pink__gradient' />
-        <div className='absolute z-[1] w-[25%] h-[25%] rounded-full white__gradient top-20' />
-        <div className='absolute z-[0] w-[20%] h-[20%] left-25 top-20 blue__gradient' />
-        {/* gradient end */}
       </div>
 
       <div
