@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, send, shield, star,  } from "../assets";
+// import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 interface navigationLinks {
   id: string;
@@ -39,60 +40,67 @@ export const features: featureData[] = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Expertise",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our team comprises experienced professionals who are passionate about IT and committed to helping businesses succeed.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Customization",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We tailor our services to your unique needs, providing solutions that fit your business like a glove.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Reliability",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "You can count on us for timely deliveries, exceptional support, and consistent quality.",
+  },
+  {
+    id: "feature-4",
+    icon: shield,
+    title: "Long-Term Partnerships",
+    content:
+      "We aim to build lasting relationships with our clients, evolving alongside your business to provide ongoing IT support.",
   },
 ];
 
-interface feedbackData {
-  id: string;
-  content: string;
-  name: string;
-  title: string;
-  img: string
-}
+// interface feedbackData {
+//   id: string;
+//   content: string;
+//   name: string;
+//   title: string;
+//   img: string
+// }
 
-export const feedback: feedbackData[] = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-];
+// export const feedback: feedbackData[] = [
+//   {
+//     id: "feedback-1",
+//     content:
+//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+//     name: "Herman Jensen",
+//     title: "Founder & Leader",
+//     img: people01,
+//   },
+//   {
+//     id: "feedback-2",
+//     content:
+//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
+//     name: "Steve Mark",
+//     title: "Founder & Leader",
+//     img: people02,
+//   },
+//   {
+//     id: "feedback-3",
+//     content:
+//       "It is usually people in the money business, finance, and international trade that are really rich.",
+//     name: "Kenn Gallagher",
+//     title: "Founder & Leader",
+//     img: people03,
+//   },
+// ];
 
 interface statsData {
   id: string;
@@ -117,6 +125,39 @@ export const stats: statsData[] = [
     value: "$230M+",
   },
 ];
+
+interface approachData {
+  title: string,
+  icon: string;
+  description: string
+}
+
+export const ourApproachData: approachData[] = [
+  {
+    title: 'Client-Centric Service',
+    icon: '',
+    description: 
+      'Your satisfaction is our priority, and we work closely with you to ensure our services align with your goals.'
+  },
+  {
+    title: 'Quality Assurance',
+    icon: '',
+    description: 
+      'We adhere to strict quality control standards to provide reliable and top-notch IT solutions.'
+  },
+  {
+    title: 'Innovation',
+    icon: '',
+    description: 
+      'We stay at the forefront of technology trends and adapt to the ever-evolving IT landscape to offer cutting-edge solutions.'
+  },
+  {
+    title: 'Cost-Effectiveness',
+    icon: '',
+    description: 
+      'We understand the importance of budget-conscious decision-making and offer competitive pricing without compromising quality.'
+  },
+]
 
 interface footerLinkData {
   title: string,
@@ -223,26 +264,26 @@ export const socialMedia: socialMediaData[] = [
   },
 ];
 
-interface clientData {
-  id: string;
-  logo: string
-}
+// interface clientData {
+//   id: string;
+//   logo: string
+// }
 
-export const clients: clientData[] = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+// export const clients: clientData[] = [
+//   {
+//     id: "client-1",
+//     logo: airbnb,
+//   },
+//   {
+//     id: "client-2",
+//     logo: binance,
+//   },
+//   {
+//     id: "client-3",
+//     logo: coinbase,
+//   },
+//   {
+//     id: "client-4",
+//     logo: dropbox,
+//   },
+// ];

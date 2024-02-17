@@ -1,9 +1,70 @@
 import React, { FunctionComponent } from "react";
+import styles, { layout } from "../../style";
+import Button from "../../shared/components/Button";
+import { features } from "../../constants";
+
+interface featureProps {
+  icon: string;
+  title: string;
+  content: string;
+  index: number;
+}
+
+const FeatureCard: FunctionComponent<featureProps> = ({
+  icon,
+  title,
+  content,
+  index,
+}) => (
+  <div
+    className={`flex flex-row justify-center items-center p-6 rounded-[20px] ${
+      index !== features.length - 1 ? "mb-6" : "mb-0"
+    } feature-card`}
+  >
+    <div
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue mr-4`}
+    >
+      <img src={icon} alt='star' className='w-[50%] h-[50%] object-contain' />
+    </div>
+    <div className='flex-1 flex flex-col ml-3'>
+      <h4 className='font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1'>
+        {title}
+      </h4>
+      <p className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px]'>
+        {content}
+      </p>
+    </div>
+  </div>
+);
 
 const WhyChooseUs: FunctionComponent = () => {
   return (
     <React.Fragment>
-      <div>WhyChooseUs</div>
+      <section className={`${layout.section}`}>
+        <div className={`${layout.sectionInfo}`}>
+          <h2 className={`${styles.heading2}`}>
+            Why Choose C.H.A.S.E IT Solutions:
+          </h2>
+          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+            impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
+            ratione.
+          </p>
+
+          <Button styles='mt-10' />
+        </div>
+
+        <div className={`${layout.sectionImg} flex-col`}>
+          {features.map((feature, index) => (
+            <FeatureCard
+              icon={feature.icon}
+              title={feature.title}
+              content={feature.content}
+              index={index}
+            />
+          ))}
+        </div>
+      </section>
     </React.Fragment>
   );
 };
