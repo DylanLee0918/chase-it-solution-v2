@@ -21,7 +21,7 @@ const Approach: FunctionComponent = () => {
         </div>
 
         <div className='w-full h-auto flex flex-row justify-center items-center mt-12'>
-          <div className='grid md:grid-cols-2 gap-8'>
+          <div className='grid md:grid-cols-2 sm:gap-8 gap-6'>
             {ourApproachData.map((data) => (
               <div className='py-8 px-8 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
                 <p className={`${styles.paragraph}`}>

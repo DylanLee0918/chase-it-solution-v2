@@ -15,7 +15,7 @@ const Footer: FunctionComponent = () => {
             </p>
 
             <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-              A new way to make your business more efficiently, reliable and
+              A new way to make your business more efficient, reliable and
               secure.
             </p>
           </div>

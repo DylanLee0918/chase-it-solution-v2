@@ -8,6 +8,7 @@ import {
   Services,
   Approach,
   WhyChooseUs,
+  ContactUs,
   CTAs,
   Footer,
 } from "./core/components";
@@ -37,6 +38,7 @@ const App: FunctionComponent = () => {
             <Services />
             <Approach />
             <WhyChooseUs />
+            <ContactUs />
             <CTAs />
             <Footer />
           </div>
