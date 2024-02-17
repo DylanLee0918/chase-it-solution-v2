@@ -23,7 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import mello from './mello.svg'
+import mello from './mello.svg';
+import circuit from './circuit.svg';
+import consultancy from './consultancy.svg'
+import programming from './programming.svg'
 
 export {
   airbnb,
@@ -51,5 +54,8 @@ export {
   people01,
   people02,
   people03,
-  mello
+  mello,
+  circuit,
+  consultancy,
+  programming
 };

@@ -4,7 +4,7 @@ import styles from "../../style";
 const CompanyOverview: FunctionComponent = () => {
   return (
     <React.Fragment>
-      <section className='w-full'>
+      <section className='w-full sm:mb-44'>
         <div className='sm:flex sm:flex-row sm:justify-between flex flex-col'>
           <div className='sm:w-[30vw] flex flex-col justify-center my-16'>
             <h3 className='font-poppins font-semibold text-[32px] text-white'>

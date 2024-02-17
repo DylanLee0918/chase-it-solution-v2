@@ -5,6 +5,7 @@ import {
   Stats,
   Introduction,
   CompanyOverview,
+  Services,
 } from "./core/components";
 import styles from "./style";
 
@@ -29,6 +30,7 @@ const App: FunctionComponent = () => {
             <Stats />
             <Introduction />
             <CompanyOverview />
+            <Services />
           </div>
         </div>
       </div>
