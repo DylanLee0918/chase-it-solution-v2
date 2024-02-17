@@ -287,3 +287,23 @@ export const socialMedia: socialMediaData[] = [
 //     logo: dropbox,
 //   },
 // ];
+
+interface contactData {
+  title: string,
+  content: string
+}
+
+export const contacts: contactData[] = [
+  {
+    title: 'Address',
+    content: '19 Avis Street, Bagong Ilog, Pasig City'
+  },
+  {
+    title: 'Phone',
+    content: '(+63) 09560734220'
+  },
+  {
+    title: 'Email',
+    content: 'chaseitsolutionsph@gmail.com'
+  },
+]
