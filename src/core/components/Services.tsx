@@ -21,7 +21,7 @@ const Services: FunctionComponent = () => {
           >
             <div className='mb-2'>
               <p className={`${styles.paragraph}`}>
-                <span className='text-gradient font-semibold text-[24px] sm:text-[32px]'>
+                <span className='text-gradient font-poppins font-semibold text-[24px] sm:text-[32px]'>
                   IT Hardware Procurement
                 </span>
               </p>
@@ -59,7 +59,7 @@ const Services: FunctionComponent = () => {
           >
             <div className='mb-2'>
               <p className={`${styles.paragraph}`}>
-                <span className='text-gradient font-semibold text-[24px] sm:text-[32px]'>
+                <span className='text-gradient font-poppins font-semibold text-[24px] sm:text-[32px]'>
                   IT Consultancy
                 </span>
               </p>
@@ -104,7 +104,7 @@ const Services: FunctionComponent = () => {
           >
             <div className='mb-2'>
               <p className={`${styles.paragraph}`}>
-                <span className='text-gradient font-semibold text-[24px] sm:text-[32px]'>
+                <span className='text-gradient font-poppins font-semibold text-[24px] sm:text-[32px]'>
                   Software Development
                 </span>
               </p>
