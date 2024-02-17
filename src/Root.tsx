@@ -7,6 +7,7 @@ import {
   CompanyOverview,
   Services,
   Approach,
+  WhyChooseUs,
 } from "./core/components";
 import styles from "./style";
 
@@ -33,6 +34,7 @@ const App: FunctionComponent = () => {
             <CompanyOverview />
             <Services />
             <Approach />
+            <WhyChooseUs />
           </div>
         </div>
       </div>
