@@ -9,7 +9,7 @@ const Services: FunctionComponent = () => {
         id='services'
         className={`w-full sm:${styles.marginY} mt-24 flex flex-col justify-center sm:items-center`}
       >
-        <h2 className='font-poppins font-semibold text-[36px] md:text-[44px]'>
+        <h2 className='font-poppins font-semibold text-[36px] md:text-[44px] mb-4'>
           <span className='text-gradient'>Our Services</span>
         </h2>
         {/*  IT Hardware Procurement */}
@@ -19,15 +19,15 @@ const Services: FunctionComponent = () => {
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-              <p className={`${styles.paragraph} ml-2`}>
-                <span className='text-gradient font-semibold text-[16px] sm:text-[20px]'>
+            <div className='mb-2'>
+              <p className={`${styles.paragraph}`}>
+                <span className='text-gradient font-semibold text-[24px] sm:text-[32px]'>
                   IT Hardware Procurement
                 </span>
               </p>
             </div>
             <div>
-              <p className={`${styles.paragraph} mt-5 z-[5] font-normal`}>
+              <p className={`${styles.paragraph} mt-2 z-[5] font-normal`}>
                 Our primary service revolves around sourcing, supplying, and
                 configuring IT hardware components and equipment. We work
                 closely with trusted vendors to provide high-quality,
@@ -57,15 +57,15 @@ const Services: FunctionComponent = () => {
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-              <p className={`${styles.paragraph} ml-2`}>
-                <span className='text-gradient font-semibold text-[16px] sm:text-[20px]'>
+            <div className='mb-2'>
+              <p className={`${styles.paragraph}`}>
+                <span className='text-gradient font-semibold text-[24px] sm:text-[32px]'>
                   IT Consultancy
                 </span>
               </p>
             </div>
             <div>
-              <p className={`${styles.paragraph} mt-5 z-[5] font-normal`}>
+              <p className={`${styles.paragraph} mt-2 z-[5] font-normal`}>
                 In addition to hardware procurement, we offer expert IT
                 consultancy services. Our experienced consultants are ready to
                 guide you through technology-related decisions, offering
@@ -102,15 +102,15 @@ const Services: FunctionComponent = () => {
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-              <p className={`${styles.paragraph} ml-2`}>
-                <span className='text-gradient font-semibold text-[16px] sm:text-[20px]'>
+            <div className='mb-2'>
+              <p className={`${styles.paragraph}`}>
+                <span className='text-gradient font-semibold text-[24px] sm:text-[32px]'>
                   Software Development
                 </span>
               </p>
             </div>
             <div>
-              <p className={`${styles.paragraph} mt-5 z-[5] font-normal`}>
+              <p className={`${styles.paragraph} mt-2 z-[5] font-normal`}>
                 We recognize the importance of software in modern business
                 operations. Our skilled development team can design and develop
                 custom software solutions tailored to your specific needs.
