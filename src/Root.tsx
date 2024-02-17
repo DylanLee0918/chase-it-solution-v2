@@ -1,34 +1,40 @@
-import { FunctionComponent, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import React, { FunctionComponent } from "react";
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Introduction,
+  CompanyOverview,
+  Services,
+} from "./core/components";
+import styles from "./style";
 
 const App: FunctionComponent = () => {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href='https://vitejs.dev' target='_blank'>
-          <img src={viteLogo} className='logo' alt='Vite logo' />
-        </a>
-        <a href='https://react.dev' target='_blank'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
+    <React.Fragment>
+      <div className='bg-primary w-full overflow-hidden'>
+        {/* Navigation Bar */}
+        <div className={` ${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
+        </div>
+        {/* Hero Section */}
+        <div className={`bg-primary ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Hero />
+          </div>
+        </div>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Stats />
+            <Introduction />
+            <CompanyOverview />
+            <Services />
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </React.Fragment>
   );
 };
 
