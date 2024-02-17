@@ -19,9 +19,9 @@ const Services: FunctionComponent = () => {
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-              <p className={`${styles.paragraph} ml-2`}>
-                <span className='text-gradient font-semibold text-[16px] sm:text-[20px]'>
+            <div className='mb-2'>
+              <p className={`${styles.paragraph}`}>
+                <span className='text-gradient font-semibold text-[16px] sm:text-[32px]'>
                   IT Hardware Procurement
                 </span>
               </p>
@@ -57,9 +57,9 @@ const Services: FunctionComponent = () => {
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-              <p className={`${styles.paragraph} ml-2`}>
-                <span className='text-gradient font-semibold text-[16px] sm:text-[20px]'>
+            <div className='mb-2'>
+              <p className={`${styles.paragraph}`}>
+                <span className='text-gradient font-semibold text-[16px] sm:text-[32px]'>
                   IT Consultancy
                 </span>
               </p>
@@ -102,9 +102,9 @@ const Services: FunctionComponent = () => {
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-              <p className={`${styles.paragraph} ml-2`}>
-                <span className='text-gradient font-semibold text-[16px] sm:text-[20px]'>
+            <div className='mb-2'>
+              <p className={`${styles.paragraph}`}>
+                <span className='text-gradient font-semibold text-[16px] sm:text-[32px]'>
                   Software Development
                 </span>
               </p>
