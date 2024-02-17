@@ -1,5 +1,11 @@
 import React, { FunctionComponent } from "react";
-import { Navbar, Hero, Stats, Introduction } from "./core/components";
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Introduction,
+  CompanyOverview,
+} from "./core/components";
 import styles from "./style";
 
 const App: FunctionComponent = () => {
@@ -22,6 +28,7 @@ const App: FunctionComponent = () => {
           <div className={`${styles.boxWidth}`}>
             <Stats />
             <Introduction />
+            <CompanyOverview />
           </div>
         </div>
       </div>
