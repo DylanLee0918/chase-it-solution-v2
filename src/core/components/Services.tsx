@@ -6,6 +6,7 @@ const Services: FunctionComponent = () => {
   return (
     <React.Fragment>
       <section
+        id='services'
         className={`w-full sm:${styles.marginY} mt-24 flex flex-col justify-center sm:items-center`}
       >
         <h2 className='font-poppins font-semibold text-[36px] md:text-[44px]'>
