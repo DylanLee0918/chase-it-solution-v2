@@ -12,10 +12,18 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 z-[5]'>
-          <img src={star} alt='star' className='w-[22px] h-[22px]' />
+          <img
+            src={star}
+            alt='star'
+            className='w-[20px] h-[20px] sm:w-[22px] sm:h-[22px]'
+          />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>Let's work together,</span>{" "}
-            <span className='text-white'>contact us now!</span>
+            <span className='text-white text-[14px] sm:text-[16px]'>
+              Let's work together,
+            </span>{" "}
+            <span className='text-white text-[14px] sm:text-[16px]'>
+              contact us now!
+            </span>
           </p>
         </div>
 
