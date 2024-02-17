@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter } from "../assets";
+import { facebook, instagram, linkedin, twitter, send, shield, star,  } from "../assets";
 // import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 interface navigationLinks {
@@ -29,36 +29,43 @@ export const navLinks: navigationLinks[] = [
   },
 ];
 
-// interface featureData {
-//   id: string;
-//   icon: string;
-//   title: string;
-//   content: string; 
-// }
+interface featureData {
+  id: string;
+  icon: string;
+  title: string;
+  content: string; 
+}
 
-// export const features: featureData[] = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+export const features: featureData[] = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Expertise",
+    content:
+      "Our team comprises experienced professionals who are passionate about IT and committed to helping businesses succeed.",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Customization",
+    content:
+      "We tailor our services to your unique needs, providing solutions that fit your business like a glove.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Reliability",
+    content:
+      "You can count on us for timely deliveries, exceptional support, and consistent quality.",
+  },
+  {
+    id: "feature-4",
+    icon: shield,
+    title: "Long-Term Partnerships",
+    content:
+      "We aim to build lasting relationships with our clients, evolving alongside your business to provide ongoing IT support.",
+  },
+];
 
 // interface feedbackData {
 //   id: string;
