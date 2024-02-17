@@ -11,9 +11,9 @@ const CTAs: FunctionComponent = () => {
         <div className='flex-1 flex flex-col select-none'>
           <h2 className={`${styles.heading2}`}>Let's try our service now!</h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis
-            ratione.
+            At C.H.A.S.E IT Solutions, we're excited to embark on this journey
+            with you, leveraging IT to drive your success in today's digital
+            world.
           </p>
         </div>
 

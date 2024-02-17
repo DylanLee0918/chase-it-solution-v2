@@ -40,7 +40,7 @@ const FeatureCard: FunctionComponent<featureProps> = ({
 const WhyChooseUs: FunctionComponent = () => {
   return (
     <React.Fragment>
-      <section className={`w-full h-auto ${layout.section} my-28`}>
+      <section className={`w-full h-auto ${layout.section} sm:my-28 my-14`}>
         <div className={`${layout.sectionInfo}`}>
           <h2 className={`${styles.heading2}`}>
             Why Choose C.H.A.S.E <br /> IT Solutions:
