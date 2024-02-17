@@ -9,6 +9,7 @@ import Approach from "./Approach";
 import WhyChooseUs from "./WhyChooseUs";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
+import CTAs from "./CTA";
 
 export {
     Navbar,
@@ -22,4 +23,5 @@ export {
     WhyChooseUs,
     ContactUs,
     Footer,
+    CTAs
 }
