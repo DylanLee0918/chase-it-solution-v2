@@ -13,9 +13,7 @@ const Services: FunctionComponent = () => {
           <span className='text-gradient'>Our Services</span>
         </h2>
         {/*  IT Hardware Procurement */}
-        <div
-          className={`w-full flex md:flex-row md:justify-between flex-col ${styles.paddingY}`}
-        >
+        <div className={`w-full flex md:flex-row md:justify-between flex-col`}>
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
@@ -51,9 +49,7 @@ const Services: FunctionComponent = () => {
         </div>
 
         {/*  IT Consultancy */}
-        <div
-          className={`flex md:flex-row-reverse md:justify-between flex-col ${styles.paddingY}`}
-        >
+        <div className={`flex md:flex-row-reverse md:justify-between flex-col`}>
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
@@ -96,9 +92,7 @@ const Services: FunctionComponent = () => {
         </div>
 
         {/*  Software Development */}
-        <div
-          className={`flex md:flex-row md:justify-between flex-col ${styles.paddingY}`}
-        >
+        <div className={`flex md:flex-row md:justify-between flex-col`}>
           <div
             className={`flex-1 ${styles.flexStart} flex-col xl:px-0 md:px-16 sm:px-10`}
           >
